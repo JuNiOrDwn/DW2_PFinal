@@ -1,0 +1,110 @@
+/* 
+.fondo{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/fondo1.jpg");
+    position: absolute;
+}
+.formulario{
+    width:500px;
+    height: auto;
+    background-color: rgba(9, 240, 250, .2);
+    align-items: center;
+    margin-left: 35%;
+    top: 25%;
+    position: relative;
+}
+.cabeza{
+    position: absolute;
+    text-align: center;
+    margin-left: 35.5%;
+} */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* background */
+.pantalla{
+    background-color: darkkhaki;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: fixed;
+}
+
+
+/* barra de navegacion */
+.barra{
+    background-color: blue;
+    width: 100%;
+    height: 5%;
+}
+.usuario{
+    float: right;
+    background-color: darkmagenta;
+    width: 15%;
+    height: 100%;
+    margin-right: 2.5%;
+}
+.foto{
+    float: right;
+    background-color: deepskyblue;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.nombre{
+    background-color: dimgray;
+    width: 75%;
+    height: 100%;
+}
+.nombre>h3{
+    float: right;
+    margin-top: .7rem;
+}
+.a{
+    background-color: greenyellow;
+}
+
+
+/* seccion de mapa */
+.fondo{
+    float: right;
+    background-color: brown;
+    width: 79.7%;
+    height: 100%;
+    margin-top: .5rem;
+}
+.mapa{
+background-image: url("../img/mapa.png");
+width: 80%;
+height: 80%;
+background-size: 100% 100%;
+margin: auto;
+margin-top: 5rem;
+}
+
+
+/* seccion de detalle */
+.detalle{
+    background-color: chartreuse;
+    width: 19.5%;
+    height: 100%;
+    margin-top: .5rem;
+}
+.titulo{
+    background-color: hotpink;
+    width: 80%;
+    height: 10%;
+    margin: auto;
+    text-align: center;
+}
+.opciones{
+    background-color: indigo;
+    width: 80%;
+    height: 5%;
+    margin: auto;
+    text-align: center;
+}
